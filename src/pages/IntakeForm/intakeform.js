@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './styles.css';
-import CustomerIntake from './CustomerIntake/customerintake';
-import VehicleIntake from './VehicleIntake/vehicleintake';
+import CustomerIntake from './CustomerIntake/customerintake.js';
+import VehicleIntake from './VehicleIntake/vehicleintake.js';
 
 const IntakeForm = () => {
   const [customer, setCustomer] = useState({});

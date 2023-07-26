@@ -28,3 +28,4 @@ yarn-error.log*
 .gitignore
 .idea/vcs.xml
 src/server/db.js
+server/db.cjs

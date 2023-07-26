@@ -1,7 +1,8 @@
 {
-  "name": "reactappmoda",
+  "name": "AutomotiveFullStack",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -31,8 +32,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-app-rewired start",
+    "start": "webpack serve --config webpack.config.cjs --mode development",
     "build": "react-app-rewired build",
+    "start-server": "node server/server.js",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
@@ -61,7 +63,14 @@
   "author": "Rowan W Osmon",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "babel-loader": "^9.1.3",
     "customize-cra": "^1.0.0",
-    "react-app-rewired": "^2.2.1"
+    "file-loader": "^6.2.0",
+    "react-app-rewired": "^2.2.1",
+    "react-refresh-webpack-plugin": "^0.1.0",
+    "webpack-cli": "^5.1.4"
   }
 }
