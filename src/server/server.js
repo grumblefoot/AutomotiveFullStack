@@ -11,7 +11,6 @@ const startServer = () => {
   app.use(cors());
   app.use(express.json());
 
-  // Rest of your server setup code goes here...
 // Establish MySQL connection
 db.connect((error) => {
     if (error) {
@@ -166,4 +165,4 @@ db.connect((error) => {
   });
 };
 
-module.exports = startServer;
+export default startServer;
