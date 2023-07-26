@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import startServer from "./server/server";
+//import startServer from "./server/server";
 
-startServer();
+//startServer();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
