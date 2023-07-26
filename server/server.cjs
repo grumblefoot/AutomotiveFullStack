@@ -1,7 +1,10 @@
+
 const express = require('express');
+const fs = require('fs');
+const net = require('net');
 const path = require('path')
 const cors = require('cors');
-const db = require('./db');
+const db = require('./db.cjs');
 const app = express();
 
 const startServer = () => {
@@ -166,4 +169,4 @@ db.connect((error) => {
   });
 };
 
-export default startServer;
+module.exports = startServer;

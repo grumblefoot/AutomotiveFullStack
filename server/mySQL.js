@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const db = require('./db');
+const db = require('./db.cjs');
 const axios = require('axios'); // Import axios
 const app = express();
 const port = 3001; // Choose a suitable port number

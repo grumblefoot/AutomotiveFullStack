@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Tickets from './BuildTicket/tickets';
-import BuildTicket from './BuildTicket/buildtickets';
+import Tickets from './BuildTicket/tickets.js';
+import BuildTicket from './BuildTicket/buildtickets.js';
 
 const OpenTickets = () => {
   const [showPopup, setShowPopup] = useState(false);

@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
 import "./App.css";
-import HomePage from "./pages/HomePage";
-import Services from "./pages/Services";
-import Layout from "./pages/Layout";
-import Invoice from "./pages/Invoice/invoice";
-import CustomerLookup from "./pages/Customer Lookup/customerlookup";
-import IntakeForm from "./pages/IntakeForm/intakeform";
-import OpenTickets from "./pages/Open Tickets/opentickets";
+import HomePage from "./pages/HomePage/homepage.js";
+import Services from "./pages/Services/services.js";
+import Layout from "./pages/Layout.js";
+import Invoice from "./pages/Invoice/invoice.js";
+import CustomerLookup from "./pages/Customer Lookup/customerlookup.js";
+import IntakeForm from "./pages/IntakeForm/intakeform.js";
+import OpenTickets from "./pages/Open Tickets/opentickets.js";
 
 
 // Establish MySQL connection

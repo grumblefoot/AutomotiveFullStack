@@ -1,5 +1,5 @@
 import React from 'react';
-import BuildTicket from './buildtickets';
+import BuildTicket from './buildtickets.js';
 
 const Tickets = ({ tickets, onBuildTicket }) => {
   const handleBuildTicketClick = () => {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CustomerLookup from '../../Customer Lookup/customerlookup';
+import CustomerLookup from '../../Customer Lookup/customerlookup.js';
 
 const BuildTicket = ({ onTicketSubmit }) => {
   const [ticketFormData, setTicketFormData] = useState({
