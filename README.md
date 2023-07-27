@@ -9,7 +9,7 @@ This current project integrates to a local MySQL Server, although we have the sc
 To connect to the mySQL database, in ./src/server please run:
 node mySQL.js 
 
-//please nore that you will need to configure db.js with your mysql login info.
+//please note that you will need to configure db.js with your mysql login info.
 
 In the project directory, you can run:
 ### `npm install` 
